@@ -41,14 +41,14 @@ public class Main {
 							btn.setText(player[0]);
 							btn.setForeground(Color.BLUE);
 							if (check())
-								quitWindow(player[0] + " winns!");
+								quitWindow(player[0] + " wins!");
 							player1 = false;
 						} else {
 							btn.setName(player[1]);
 							btn.setText(player[1]);
 							btn.setForeground(Color.RED);
 							if (check())
-								quitWindow(player[1] + " winns!");
+								quitWindow(player[1] + " wins!");
 							player1 = true;
 						}
 				}
